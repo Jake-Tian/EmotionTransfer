@@ -1,0 +1,69 @@
+# CSV files
+*.csv
+
+# Directories
+LLaMA-Factory/
+models/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model outputs and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+
+# Training outputs
+outputs/
+logs/
+wandb/
+runs/
+
+# API keys and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*_api_key.txt
+*_api_key.json
+secrets.json
+config.json
+credentials.json
+
+# Common API key patterns (just in case)
+*api*key*
+*API*KEY*
+*secret*
+*SECRET*
+*token*
+*TOKEN*
+
